@@ -1,4 +1,3 @@
-import easygui
 import discord
 from discord.ui import Button, View
 from discord.ext import commands
@@ -113,5 +112,5 @@ async def help(ctx):
     s = (w1, w2, w3, w4, w5, w6, w7, w8, w9)
     for i in s:
         await ctx.send(i)
-easygui.msgbox("Готов вкалывать", image="ork.gif", title="WikiHelper")
+        
 bot.run('OTQ1MDA3NjM5NDI1ODU5Njk0.YhJ48g.3M_8XdfHCcHQfUp4RWI6elw-9AI')
